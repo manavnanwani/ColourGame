@@ -1,0 +1,94 @@
+
+
+body {
+	margin :0;
+	background-color: black;
+	font-family: 'Russo One', sans-serif;
+}
+
+
+.square{
+	background: purple;
+	width : 30%;
+	float : left;
+	margin: 1.66%;
+	padding-bottom: 30%;
+	border-radius: 20px;
+	transition: all 0.3s;
+}
+#colorDisplay {
+	font-size: 60px;
+}
+
+#container {
+	max-width: 600px;
+	margin : 20px auto;
+}
+
+button {
+	font-family: 'Russo One', sans-serif;
+	background : none;
+	border: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color : #13274F;
+	letter-spacing: 1px;
+	font-size: 18px;
+	transition: all 0.379s;
+	outline: none;
+}
+
+#second {
+	background : white;
+	height: 30px;
+	text-align: center;
+	color : #13274F;	
+	margin :0 auto;
+}
+
+#message {
+	font-size: inherit;
+	text-transform: uppercase;
+	font-weight: 700;
+	color : #13274F;
+	letter-spacing: 1px;
+	display: inline-block;
+	width : 15%;
+	font-size: 18px;
+}
+
+button:hover {
+	color : white;
+	background-color: #13274F;
+}
+
+.selected {
+	background : #13274F;
+	color: white;
+}
+
+#h1 {
+	color : white;
+	text-align: center;
+	margin :0 auto;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
+	background-color: #13274F;
+}
+
+span {
+	color : white;
+}
+
+@media only screen and (max-width: 600px) {
+	h1{
+		height: 25vh;
+		font-size: 2.1rem;
+	}
+	#colorDisplay {
+		font-size: 50px;
+	}
+}
